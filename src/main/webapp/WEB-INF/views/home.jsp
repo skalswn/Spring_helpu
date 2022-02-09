@@ -339,20 +339,9 @@ function input_food()  {
 						<div class="col-md-12 grid-margin">
 							<div class="row">
 								<div class="col-12 col-xl-8 mb-4 mb-xl-0">
-									<h3 class="font-weight-bold">
-										<!--  <a  href="#detailedReports" role="button" data-slide="prev"  style="color: black">
-                      <p class="carousel-control-prev-icon" aria-hidden="true"></p>
-                      <p class="sr-only">Previous</p>  class="carousel-control-prev"  class="carousel-control-next"
-                      	<<
-                   </a>         -->
-										나민주님의 리포트!
-										<!--  <a href="#detailedReports" role="button" data-slide="next" style="color: black">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                      	>>
-                      	</a> -->
+									<h3 class="font-weight-bold">					
+										나민주님의 리포트!					
 									</h3>
-									<!-- <h6 class="font-weight-normal mb-0">뭔가 캐치프라이즈 <span class="text-primary">생각나는게 없음</span></h6> -->
 								</div>
 							<div class="col-12 col-xl-4">
 								<div class="justify-content-end d-flex">

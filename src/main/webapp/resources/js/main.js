@@ -46,7 +46,30 @@
         inline: true,
         format: 'L'
     });
+//data-filter
+ var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-item',
+    layoutMode: 'fitRows'
+  });
 
+  $('#portfolio-flters li').on( 'click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+  });
+// Porfolio isotope and filter
+  var portfolioIsotope = $('.portfolio-container').isotope({
+    itemSelector: '.portfolio-item',
+    layoutMode: 'fitRows'
+  });
+
+  $('#portfolio-flters li').on( 'click', function() {
+    $("#portfolio-flters li").removeClass('filter-active');
+    $(this).addClass('filter-active');
+
+    portfolioIsotope.isotope({ filter: $(this).data('filter') });
+  });
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({

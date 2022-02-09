@@ -26,6 +26,10 @@ public class HomeController {
 	public String demo(Locale locale, Model model) {
 		return "Demo";	
 }
+	@RequestMapping(value = "/gallery_view", method = RequestMethod.GET)
+	public String gallery_view(Locale locale, Model model) {
+		return "gallery_view";	
+}
 	@RequestMapping(value = "/home", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
